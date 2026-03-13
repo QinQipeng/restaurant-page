@@ -20,12 +20,20 @@ export default {
   module: {
     rules: [
         {
-            test: /\.css$/i,
-            use: ['style-loader', 'css-loader'],
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
         },
         {
-            test: /\.(png|svg|jpg|jpeg|git)$/i,
-            type: "asset/resource",
+          test: /\.(png|svg|jpg|jpeg|git)$/i,
+          type: "asset/resource",
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|otf)$/i,
+          type: "asset/resource",
+        },
+        {
+          test: /\.html$/i,
+          use: ["html-loader"],
         }
     ]
   }
