@@ -167,12 +167,14 @@ helm, our freshly brewed coffee is to elevate your day with the highest quality 
         footer.textContent = "Copyright Wolfy Café © 2026";
         this.ContentContainer.appendChild(footer);
     }
+
     constructHome() {
         this._constructHero();
         this._constructRecommendation();
         this._constructContact();
         this._constructFooter();
     }
+
 
 }
 

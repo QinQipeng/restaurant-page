@@ -49,8 +49,12 @@ img {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    font-weight:500;
+    font-weight: normal;
     text-decoration: underline;
+}
+
+.header nav button.focused {
+    font-weight: bolder;
 }
 
 .logo {
