@@ -1,0 +1,12 @@
+.intro {
+    display: flex;
+    height: 70vh;
+    font-family: "Roboto", sans-serif;
+    padding: 3rem;
+}
+
+.intro p {
+    font-size: 1.75rem;
+    text-align: justify;
+    padding: 0rem 3rem;
+}

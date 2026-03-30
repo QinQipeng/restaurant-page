@@ -1,0 +1,14 @@
+.menu-header {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+.card-container {
+    flex-wrap: wrap;
+    margin: 10vh 15vw;
+    gap: 3rem;
+}
+

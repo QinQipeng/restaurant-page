@@ -1,5 +1,6 @@
-import button from "uview-plus/components/u-button/button.js";
 import "./assets/css/style.css"
+import "./assets/css/about.css"
+
 import Home from "./home.js"
 import Menu from "./menu.js"
 import About from "./about.js"

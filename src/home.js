@@ -7,7 +7,7 @@ import FlatWhite    from "./assets/images/Flat White.jpg"
 import logoReverse  from "./assets/images/wolfy-cafe reverse.svg"
 import fakeRetail   from "./assets/images/wolfy-cafe-retail.png"
 import googleMap    from "./assets/images/wolfyCafe-google-map.png"
-
+import "./assets/css/home.css"
 
 class Home {
     constructor(content) {
